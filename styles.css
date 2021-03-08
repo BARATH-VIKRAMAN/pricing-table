@@ -1,0 +1,155 @@
+.hyperlink{
+  text-decoration: none;
+}
+
+body{
+
+  min-height:  100vh;
+  display: flex;
+  align-items: center;
+  background: white;
+
+}
+
+
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  border-top-color: rgb(255, 204, 0);
+  border-left-color: rgb(255, 204, 0);
+
+  border-top-style: solid;
+  border-left-style: solid;
+  margin-right: inherit;
+  margin: 100px;
+  border-right-color: rgb(255, 204, 0);
+  border-right-style: solid;
+  background-color: rgb(255, 204, 0);
+  background: white;
+  z-index: -1;
+}
+
+
+.pricing-card-1{
+  flex: 1;
+  max-width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  border-color: rgb(255, 204, 0);
+  border-right-style: solid;
+  border-right-width: 20px;
+}
+
+.pricing-card-2{
+  flex: 1;
+  max-width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  border-color: rgb(255, 204, 0);
+  border-right-style: solid;
+  border-right-width: 20px;
+}
+.pricing-card-3{
+  flex: 1;
+  max-width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  border-color: rgb(255, 204, 0);
+  border-right-style: solid;
+  border-right-width: 20px;
+}
+.pricing-card-4{
+  flex: 1;
+  max-width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  border-color: rgb(255, 204, 0);
+  border-right-style: solid;
+  border-right-width: 20px;
+}
+
+.pricing-card-header{
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  }
+
+
+.start{
+  padding-top: 30px;
+}
+
+
+.desc-1{
+  padding-bottom: 5px;
+  text-align: left;
+  margin: 40px;
+  font-size: 0.9rem;
+}
+
+.desc-2{
+  padding-bottom: 67px;
+  text-align: left;
+  margin: 40px;
+  font-size: 0.9rem;
+}
+
+.desc-3{
+  padding-bottom: 44px;
+  text-align: left;
+  margin: 40px;
+  font-size: 0.9rem;
+}
+.desc-4{
+  padding-bottom: 125px;
+  text-align: left;
+  margin: 40px;
+  font-size: 0.9rem;
+
+}
+
+
+.set{
+  background-color: rgb(204, 217, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.new {
+  width: 100px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px rgb(255, 204, 0);
+    background: rgb(255, 204, 0);
+    transform: rotate(-40deg);
+    position: absolute;
+    right: 1250px;
+    top: 80px;
+    padding-top: 7px;
+}
+
+
+#last-container{
+  border-right-width: 0px;
+}
